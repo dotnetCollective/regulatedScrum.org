@@ -1084,14 +1084,7 @@ Similarly, if you want to paginate a collection or a tag, you can create another
 
 ```html
 ---
-title: "Lovely pets"
-layout: home
-permalink: /pets/
-pagination:
-  enabled: true
-  collection:
-    - cat
-    - dog
+
 ---
 ```
 

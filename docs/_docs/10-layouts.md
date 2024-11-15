@@ -275,14 +275,7 @@ sort_by: # date (default), title or any metadata key added to the collection's d
 sort_order: # forward (default), reverse
 ```
 
-To create a page showing all documents in the `recipes` collection you'd create `recipes.md` in the root of your project and add this front matter:
 
-```yaml
-title: Recipes
-layout: collection
-permalink: /recipes/
-collection: recipes
-```
 
 If you want to sort the collection by title add `sort_by: title`. If you want reverse sorting, add `sort_order: reverse`.
 You can also use any metadata key that is present in the documents. For example, you can add `number: <any number>` to your documents and use `number` as the sort key:
