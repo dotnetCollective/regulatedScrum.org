@@ -19,12 +19,16 @@ description: >- # this means to ignore newlines until "baseurl:"
    an opinionated process that just works - use it for regulated or new environments.
 twitter_username: username
 github_username: brianro
-minimal_mistakes_skin: air
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air"
+#minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
