@@ -66,8 +66,6 @@ docs:
         url: /docs/pages/
       - title: "Working with Collections"
         url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
       - title: "Utility Classes"
         url: /docs/utility-classes/
   - title: Extras

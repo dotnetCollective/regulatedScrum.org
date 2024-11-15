@@ -231,10 +231,6 @@ Teaser images are assigned similar to header images using the following YAML Fro
 header:
   teaser: path-to-teaser-image.jpg
 ```
-
-**Note:** More information on using this `_include` can be found under [**Helpers**]({{ "/docs/helpers/" | relative_url }}).
-{: .notice--info}
-
 ## Taxonomy archives
 
 If you have the luxury of using Jekyll plugins, the creation of category and tag archives is greatly simplified. Simply enable support for the [`jekyll-archives`](https://github.com/jekyll/jekyll-archives) plugin with a few `_config.yml` settings as noted in the [**Configuration**]({{ "/docs/configuration/#archive-settings" | relative_url }}) section and you're good to go.
